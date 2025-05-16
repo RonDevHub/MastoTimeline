@@ -3,8 +3,8 @@
 A **customizable Mastodon widget** that allows you to display **Toots from a specific user or instance**. It supports **multiple themes**, **custom options**, and a **responsive design**.
 
 ## Preview
+![mastotimeline local_](https://github.com/user-attachments/assets/0b9ed77f-e432-4588-927e-dd02c883b5f4)
 
-<br>
 
 ## Features
 
