@@ -7,43 +7,46 @@
     <link rel="stylesheet" href="mastodon-widget.css" />
   </head>
   <body>
-    <div id="mastodon-widget"></div> <!-- Container für das Widget -->
+    <div id="mastodon-widget"></div>
+    <!-- Container for the widget / Container für das Widget -->
     <script src="mastodon-widget.js"></script>
     <script>
+      // Version 1.2.0
       MastodonWidget.init({
-        elementId: "mastodon-widget", // ID des Elements, in dem das Widget angezeigt wird
-        instanceUrl: "https://mastodon.social", // Mastodon-Instanz-URL
-        // Beispiel: https://mastodon.social
-        user: "RonDev", // Benutzername ohne @
-        height: "600px", //Höhe des Widgets
-        width: "350px", // Breite des Widgets
-        theme: "dark", // 'light', 'dark', 'mastodon', 'green', 'midnight', 'inkblack' oder 'costume'
-        maxToots: 30, // Maximale Anzahl der anzuzeigten Toots
-        interval: 300, // in Sekunden
-        imageStyle: "rounded", // 'circle', 'rounded', 'square'
-        showHeader: true, // Header anzeigen (true) oder ausblenden (false)
-        showAvatars: true, // Avatare anzeigen (true) oder ausblenden (false)
-        showUsernames: true, // Benutzernamen anzeigen (true) oder ausblenden (false)
-        showTimestamps: true, // Zeitstempel anzeigen (true) oder ausblenden (false)
-        showContent: true, // Inhalt anzeigen (true) oder ausblenden (false)
-        showMedia: true, // Medien anzeigen (true) oder ausblenden (false)
-        showBoosts: true, // Boosts anzeigen (true) oder ausblenden (false)
-        showFavourites: true, // Favoriten anzeigen (true) oder ausblenden (false)
-        showReplies: true, // Antworten anzeigen (true) oder ausblenden (false)
-        showLinks: true, // Links anzeigen (true) oder ausblenden (false)
-        showMentions: true, // Erwähnungen anzeigen (true) oder ausblenden (false)
-        showPolls: true, // Umfragen anzeigen (true) oder ausblenden (false)
-        showSensitiveContent: true, // Sensible Inhalte anzeigen (true) oder ausblenden (false)
-        showSensitiveMedia: true, // Sensible Medien anzeigen (true) oder ausblenden (false)
-        showSensitiveText: true, // Sensibler Text anzeigen (true) oder ausblenden (false)
-        showSensitiveWarning: true, // Warnung für sensible Inhalte anzeigen (true) oder ausblenden (false)
-        showSensitiveWarningText: "Inhalt möglicherweise sensibel", // Text für die Warnung sensibler Inhalte
-        showSensitiveWarningButton: "Inhalt anzeigen", // Text für den Button zur Anzeige sensibler Inhalte
-        showSensitiveWarningButtonText: "Inhalt ausblenden", // Text für den Button zum Ausblenden sensibler Inhalte
-        showSensitiveWarningButtonText: "Inhalt anzeigen", // Text für den Button zum Ausblenden sensibler Inhalte
-        showFooter: true, // Footer anzeigen (true) oder ausblenden (false)
-        showInfoButton: true, // Info-Button anzeigen (true) oder ausblenden (false)
-        showRelativeTime: true, // Relative Zeit anzeigen (true) oder Datum (false)
+        elementId: "mastodon-widget", // ID of the element where the widget is displayed / ID des Elements, in dem das Widget angezeigt wird
+        instanceUrl: "https://mastodon.social", // Mastodon instance URL / Mastodon-Instanz-URL
+        // Example: https://mastodon.social / Beispiel: https://mastodon.social
+        user: "RonDev", // Username without @ / Benutzername ohne @
+        height: "600px", // Height of the widget / Höhe des Widgets
+        width: "350px", // Width of the widget / Breite des Widgets
+        theme: "light", // 'light', 'dark', 'mastodon', 'green', 'midnight', 'inkblack' or 'costume' / 'light', 'dark', 'mastodon', 'green', 'midnight', 'inkblack' oder 'costume'
+        maxToots: 30, // Maximum number of toots to display / Maximale Anzahl der anzuzeigten Toots
+        interval: 300, // in seconds / in Sekunden
+        imageStyle: "rounded", // 'circle', 'rounded', 'square' / 'circle', 'rounded', 'square'
+        showLoader: true, // Show loading animation (true) or hide (false) / Ladeanimation anzeigen (true) oder ausblenden (false)
+        showHeader: true, // Show header (true) or hide (false) / Header anzeigen (true) oder ausblenden (false)
+        showFooter: true, // Show footer (true) or hide (false) / Footer anzeigen (true) oder ausblenden (false)
+        showAvatars: true, // Show avatars (true) or hide (false) / Avatare anzeigen (true) oder ausblenden (false)
+        showUsernames: true, // Show usernames (true) or hide (false) / Benutzernamen anzeigen (true) oder ausblenden (false)
+        showTimestamps: true, // Show timestamps (true) or hide (false) / Zeitstempel anzeigen (true) oder ausblenden (false)
+        showContent: true, // Show content (true) or hide (false) / Inhalt anzeigen (true) oder ausblenden (false)
+        showMedia: true, // Show media (true) or hide (false) / Medien anzeigen (true) oder ausblenden (false)
+        showBoosts: true, // Show boosts (true) or hide (false) / Boosts anzeigen (true) oder ausblenden (false)
+        showFavourites: true, // Show favourites (true) or hide (false) / Favoriten anzeigen (true) oder ausblenden (false)
+        showReplies: true, // Show replies (true) or hide (false) / Antworten anzeigen (true) oder ausblenden (false)
+        showLinks: true, // Show links (true) or hide (false) / Links anzeigen (true) oder ausblenden (false)
+        showMentions: true, // Show mentions (true) or hide (false) / Erwähnungen anzeigen (true) oder ausblenden (false)
+        showPolls: true, // Show polls (true) or hide (false) / Umfragen anzeigen (true) oder ausblenden (false)
+        showSensitiveContent: true, // Show sensitive content (true) or hide (false) / Sensible Inhalte anzeigen (true) oder ausblenden (false)
+        showSensitiveMedia: true, // Show sensitive media (true) or hide (false) / Sensible Medien anzeigen (true) oder ausblenden (false)
+        showSensitiveText: true, // Show sensitive text (true) or hide (false) / Sensibler Text anzeigen (true) oder ausblenden (false)
+        showSensitiveWarning: true, // Show warning for sensitive content (true) or hide (false) / Warnung für sensible Inhalte anzeigen (true) oder ausblenden (false)
+        showSensitiveWarningText: "Inhalt möglicherweise sensibel", // Text for sensitive content warning / Text für die Warnung sensibler Inhalte
+        showSensitiveWarningButton: "Inhalt anzeigen", // Text for the button to show sensitive content / Text für den Button zur Anzeige sensibler Inhalte
+        showSensitiveWarningButtonText: "Inhalt ausblenden", // Text for the button to hide sensitive content / Text für den Button zum Ausblenden sensibler Inhalte
+        showSensitiveWarningButtonText: "Inhalt anzeigen", // Text for the button to show sensitive content / Text für den Button zum Ausblenden sensibler Inhalte
+        showInfoButton: true, // Show info button (true) or hide (false) / Info-Button anzeigen (true) oder ausblenden (false)
+        showRelativeTime: true, // Show relative time (true) or date (false) / Relative Zeit anzeigen (true) oder Datum (false)
       });
     </script>
   </body>

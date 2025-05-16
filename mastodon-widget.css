@@ -1,12 +1,9 @@
 /* mastodon-widget.css */
+/* Version: 1.2.0 */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-a {
-  color: var(--text);
-  text-decoration: none;
-}
 #mastodon-widget {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--text);
@@ -27,36 +24,41 @@ a {
   font-family: sans-serif;
   overflow: hidden;
 }
-/* Mastodon Widget CSS */
+
+/* Farbvarianten */
 :root {
-  --bg: #fff;
-  --text: #111;
-  --border: #ccc;
-  --hashtag: #027ec5;
-  --button-bg: #a3a3a3;
-  --button-text: #111;
+  --bg: #FFFFFF;
+  --text: #000000;
+  --border: #D9D9E8;
+  --hashtag: #6470FF;
+  --hashtaghover: #5454fd;
+  --button-bg: #6364FF;
+  --button-text: #FFFFFF;
 }
 [data-theme="dark"] {
   --bg: #1e1e1e;
   --text: #eee;
   --border: #444;
-  --hashtag: #6f6f6f;
+  --hashtag: #e9e9e9;
+  --hashtaghover: #cacaca;
   --button-bg: #454545;
   --button-text: #eee;
 }
 [data-theme="mastodon"] {
-  --bg: #563ACC;
-  --text: #f4f4f4;
-  --border: #785ee3;
-  --hashtag: #f4f4f4;
-  --button-bg: #f4f4f4;
-  --button-text: #563ACC;
+  --bg: #181821;
+  --text: #ddd9e8;
+  --border: #313144;
+  --hashtag: #8C8DFF;
+  --hashtaghover: #563ACC;
+  --button-bg: #292938;
+  --button-text: #EDEBFA;
 }
 [data-theme="green"] {
   --bg: #7ca23d;
   --text: #cae3a2;
   --border: #709238;
-  --hashtag: #c6e19c;
+  --hashtag: #c3de98;
+  --hashtaghover: #c4ea88;
   --button-bg: #cae3a2;
   --button-text: #7ca23d;
 }
@@ -65,6 +67,7 @@ a {
   --text: #b8c1da;
   --border: #535660;
   --hashtag: #abb3c8;
+  --hashtaghover: #c0c9e1;
   --button-bg: #b8c1da;
   --button-text: #474a53;
 }
@@ -73,6 +76,7 @@ a {
   --text: #c5c5c5;
   --border: #515151;
   --hashtag: #abb3c8;
+  --hashtaghover: #d9e2fb;
   --button-bg: #c5c5c5;
   --button-text: #414141;
 }
@@ -81,10 +85,12 @@ a {
   --text: #ffffff;
   --border: #ffffff;
   --hashtag: #ffffff;
+  --hashtaghover: #c0c9e1;
   --button-bg: #ffffff;
   --button-text: #000000;
 }
 
+/* Header */
 .mastodon-header {
   display: flex;
   align-items: center;
@@ -107,6 +113,7 @@ a {
   border-radius: 0;
 }
 
+/* Timeline Body */
 .mastodon-body {
   flex: 1;
   overflow-y: auto;
@@ -120,21 +127,8 @@ a {
   padding: 1em;
   border-bottom: 1px solid var(--border);
 }
-.toot-content a {
-  text-decoration: none;
-  color: var(--text);
-}
-.toot-content a:hover {
-  text-decoration: none;
-}
-.toot-content .hashtag a {
-  color: var(--hashtag);
-  font-weight: bold;
-}
-.toot-content .hashtag a:hover {
-  text-decoration: underline;
-  color: var(--text);
-}
+
+/* Medien */
 .toot-media img {
   max-width: 100%;
   border-radius: 10px;
@@ -143,6 +137,8 @@ a {
 .toot-media img.sensitive {
   filter: blur(10px);
 }
+
+/* Meta-Infos */
 .toot-meta {
   display: flex;
   justify-content: space-between;
@@ -157,39 +153,28 @@ a {
   margin-right: 4px;
 }
 
+/* Toot Header */
 .toot-header {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
-
-.toot-avatar {
-  margin-right: 10px;
-}
-
-.toot-avatar img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-
 .toot-info {
   display: flex;
   flex-direction: column;
 }
-
 .toot-info .toot-date {
   font-size: 0.85em;
   color: var(--text);
 }
 
+/* Boost/Reblog */
 .reblog-note {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   position: relative;
 }
-
 .reblog-note .large-avatar {
   width: 50px;
   height: 50px;
@@ -197,39 +182,91 @@ a {
   margin-right: 10px;
   position: relative;
 }
-
 .reblog-note .small-avatar {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   position: absolute;
-  bottom: 0px; /* Nach unten verschieben */
-  left: 28px; /* Etwas in die Mitte des großen Bildes verschieben */
+  bottom: 0px;
+  left: 28px;
   border: 2px solid white;
-  z-index: 1; /* Sicherstellen, dass das kleine Bild über dem großen liegt */
+  z-index: 1;
 }
-
 .reblog-info {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
 }
-
 .reblog-info a {
   font-weight: bold;
   color: var(--text);
   text-decoration: none;
 }
-
 .reblog-info a:hover {
   text-decoration: underline;
 }
-
 .reblog-info .toot-date {
   font-size: 0.85em;
   color: var(--text);
 }
 
+/* Links im Widget */
+.mastodon-wrapper a,
+.mastodon-wrapper .toot-content a,
+.mastodon-wrapper .reblog-info a,
+.mastodon-wrapper .reply-link a,
+.mastodon-wrapper .profile-button,
+.mastodon-wrapper .info-link {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s, text-decoration 0.2s;
+}
+
+/* Hashtag-Links */
+.mastodon-wrapper .toot-content .hashtag,
+.mastodon-wrapper .toot-content .hashtag a {
+  color: var(--hashtag) !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.mastodon-wrapper .toot-content .hashtag:hover,
+.mastodon-wrapper .toot-content .hashtag:hover a,
+.mastodon-wrapper .toot-content .hashtag a:hover {
+  color: var(--hashtaghover) !important;
+  text-decoration: underline;
+}
+
+/* Loader */
+.mastodon-loader-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 120px;
+  width: 100%;
+}
+.mastodon-loader svg {
+  width: 64px;
+  height: 64px;
+  animation: mastodon-loader-pulse 1.2s infinite ease-in-out;
+  display: block;
+}
+@keyframes mastodon-loader-pulse {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.08);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Footer */
 .mastodon-footer {
   display: flex;
   justify-content: space-between;
@@ -238,43 +275,36 @@ a {
   background-color: var(--bg);
   border-top: 1px solid var(--border);
 }
-
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-
 .profile-button {
   margin-left: 10px;
   padding: 8px 12px;
   background-color: var(--button-bg);
-  color: var(--button-text);
-  text-decoration: none;
+  color: var(--button-text) !important;
   border-radius: 4px;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
 }
-
 .info-link {
   margin-right: 10px;
   font-size: 20px;
   color: #555;
   cursor: pointer;
 }
-
 .info-link:hover {
   color: #000;
 }
-
 .icon.info-link {
   width: 1em;
   height: 1em;
   fill: currentColor;
   display: inline-block;
   margin-left: 1rem;
-  color: var(--button-bg);
   vertical-align: middle;
 }
