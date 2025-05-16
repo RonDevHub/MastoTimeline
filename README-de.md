@@ -3,7 +3,7 @@
 Ein anpassbares Mastodon-Widget, das es ermöglicht, Toots von einem bestimmten Benutzer oder einer Instanz anzuzeigen. Es unterstützt mehrere Themes, benutzerdefinierte Optionen und ein responsives Design.
 
 ## Vorschau
-
+![mastotimeline local_](https://github.com/user-attachments/assets/95a2d5e3-3af6-4abf-ba18-0619b22e194b)
 
 
 ## Features
