@@ -1,3 +1,4 @@
+![GitHub Repo stars](https://img.shields.io/github/stars/RonDevHub/MastoTimeline?style=social)  ![GitHub license](https://img.shields.io/github/license/RonDevHub/MastoTimeline) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/RonDevHub/MastoTimeline) ![GitHub top language](https://img.shields.io/github/languages/top/RonDevHub/MastoTimeline)  ![GitHub language count](https://img.shields.io/github/languages/count/RonDevHub/MastoTimeline)
 # Mastodon Widget
 
 A **customizable Mastodon widget** that allows you to display **Toots from a specific user or instance**. It supports **multiple themes**, **custom options**, and a **responsive design**.
