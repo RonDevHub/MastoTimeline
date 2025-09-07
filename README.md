@@ -1,4 +1,9 @@
-![GitHub Repo stars](https://img.shields.io/github/stars/RonDevHub/MastoTimeline?style=social)  ![GitHub license](https://img.shields.io/github/license/RonDevHub/MastoTimeline) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/RonDevHub/MastoTimeline) ![GitHub top language](https://img.shields.io/github/languages/top/RonDevHub/MastoTimeline)  ![GitHub language count](https://img.shields.io/github/languages/count/RonDevHub/MastoTimeline)
+![GitHub Repo stars](https://mini-badges.rondevhub.de/github/RonDevHub/MastoTimeline/stars/*/starjelly)  ![GitHub license](https://mini-badges.rondevhub.de/github/RonDevHub/MastoTimeline/license/*/crownjelly/*/c1d82f-black) ![GitHub release (latest by date)](https://mini-badges.rondevhub.de/github/RonDevHub/MastoTimeline/release/*/wandjelly) ![GitHub top language](https://img.shields.io/github/languages/top/RonDevHub/MastoTimeline)  ![GitHub language count](https://img.shields.io/github/languages/count/RonDevHub/MastoTimeline)
+
+[![Buy me a coffee](https://mini-badges.rondevhub.de/icon/cuptogo/Buy_me_a_Coffee-c1d82f-222/flat "Buy me a coffee")](https://www.buymeacoffee.com/RonDev)
+[![Buy me a coffee](https://mini-badges.rondevhub.de/icon/cuptogo/ko--fi.com-c1d82f-222/flat "Buy me a coffee")](https://ko-fi.com/U6U31EV2VS)
+[![Sponsor me](https://mini-badges.rondevhub.de/icon/hearts-red/Sponsor_me/flat "Sponsor me")](https://github.com/sponsors/RonDevHub)
+[![Pizza Power](https://mini-badges.rondevhub.de/icon/pizzaslice/Buy_me_a_pizza/flat "Pizza Power")](https://www.paypal.com/paypalme/Depressionist1/4,99)
 # Mastodon Widget
 
 A **customizable Mastodon widget** that allows you to display **Toots from a specific user or instance**. It supports **multiple themes**, **custom options**, and a **responsive design**.
@@ -179,6 +184,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Have fun using the Mastodon Widget! 
-
-<a href="https://www.buymeacoffee.com/RonDev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>   <a href='https://ko-fi.com/U6U31EV2VS' target='_blank'><img height='60' style='border:0px;height:60px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+Have fun using the Mastodon Widget!
