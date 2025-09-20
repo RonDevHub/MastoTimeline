@@ -184,4 +184,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Have fun using the **Mastodon Widget**!
+Have fun using the **Mastodon Widget**! :fun:
