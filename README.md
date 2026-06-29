@@ -1,10 +1,10 @@
 # Mastodon Widget
-![GitHub language count](https://mini-badges.rondevhub.de/github/RonDevHub/MastoTimeline/created_at/social/calendarjelly) ![GitHub Repo stars](https://mini-badges.rondevhub.de/github/RonDevHub/MastoTimeline/stars/social/starjelly)  ![GitHub license](https://mini-badges.rondevhub.de/github/RonDevHub/MastoTimeline/license/social/crownjelly/*/c1d82f-black) ![GitHub release (latest by date)](https://mini-badges.rondevhub.de/github/RonDevHub/MastoTimeline/release/social/wandjelly) ![GitHub top language](https://mini-badges.rondevhub.de/github/RonDevHub/MastoTimeline/top_language_count/social/codejelly) ![GitHub language count](https://mini-badges.rondevhub.de/github/RonDevHub/MastoTimeline/commit/social/calendarjelly)
+![GitHub language count](https://mini-badges.rondev.de/github/RonDevHub/MastoTimeline/created_at/social/calendarjelly) ![GitHub Repo stars](https://mini-badges.rondev.de/github/RonDevHub/MastoTimeline/stars/social/starjelly)  ![GitHub license](https://mini-badges.rondev.de/github/RonDevHub/MastoTimeline/license/social/crownjelly/*/c1d82f-black) ![GitHub release (latest by date)](https://mini-badges.rondev.de/github/RonDevHub/MastoTimeline/release/social/wandjelly) ![GitHub top language](https://mini-badges.rondev.de/github/RonDevHub/MastoTimeline/top_language_count/social/codejelly) ![GitHub language count](https://mini-badges.rondev.de/github/RonDevHub/MastoTimeline/commit/social/calendarjelly)
 
-[![Buy me a coffee](https://mini-badges.rondevhub.de/icon/cuptogo/Buy_me_a_Coffee-c1d82f-222/for-the-badge "Buy me a coffee")](https://www.buymeacoffee.com/RonDev)
-[![Buy me a coffee](https://mini-badges.rondevhub.de/icon/cuptogo/ko--fi.com-c1d82f-222/for-the-badge "Buy me a coffee")](https://ko-fi.com/U6U31EV2VS)
-[![Sponsor me](https://mini-badges.rondevhub.de/icon/hearts-red/Sponsor_me/for-the-badge "Sponsor me")](https://github.com/sponsors/RonDevHub)
-[![Pizza Power](https://mini-badges.rondevhub.de/icon/pizzaslice/Buy_me_a_pizza/for-the-badge "Pizza Power")](https://www.paypal.com/paypalme/Depressionist1/4,99)
+[![Buy me a coffee](https://mini-badges.rondev.de/icon/cuptogo/Buy_me_a_Coffee-c1d82f-222/for-the-badge "Buy me a coffee")](https://www.buymeacoffee.com/RonDev)
+[![Buy me a coffee](https://mini-badges.rondev.de/icon/cuptogo/ko--fi.com-c1d82f-222/for-the-badge "Buy me a coffee")](https://ko-fi.com/U6U31EV2VS)
+[![Sponsor me](https://mini-badges.rondev.de/icon/hearts-red/Sponsor_me/for-the-badge "Sponsor me")](https://github.com/sponsors/RonDevHub)
+[![Pizza Power](https://mini-badges.rondev.de/icon/pizzaslice/Buy_me_a_pizza/for-the-badge "Pizza Power")](https://www.paypal.com/paypalme/Depressionist1/4,99)
 
 A **customizable Mastodon widget** that allows you to display **Toots from a specific user or instance**. It supports **multiple themes**, **custom options**, and a **responsive design**.
 
